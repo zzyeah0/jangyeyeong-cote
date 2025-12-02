@@ -9,13 +9,15 @@ export default function ApplicantCard(props) {
 
   const style = transform ? {
     transform: `translate(${transform.x}px, ${transform.y}px)`,
+    position: `fixed`,
+    width: `294px`,  
   } : undefined;
 
   return (
     <div                  
       ref={setNodeRef}
       {...attributes}      
-      className="bg-white border border-slate-200 rounded-lg p-4 cursor-move hover:shadow-md transition-shadow shadow-sm group"
+      className="bg-white border border-slate-200 rounded-lg p-4 hover:shadow-md transition-shadow shadow-sm group"
       style={style}      
     >
       <div className="flex items-start justify-between gap-3">

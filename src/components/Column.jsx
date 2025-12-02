@@ -21,7 +21,7 @@ export default function Column(props) {
 
       <div
         ref={setNodeRef}
-        className="flex-1 overflow-y-auto overflow-x-hidden p-3 space-y-3">
+        className="flex-1 overflow-y-auto p-3 space-y-3">
         {props.applicants.length === 0 ? (
           <div className="h-full flex items-center justify-center text-slate-400 text-sm py-8">
             지원자 없음

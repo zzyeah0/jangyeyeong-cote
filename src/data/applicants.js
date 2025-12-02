@@ -2,7 +2,7 @@
     {
       id: "A001",
       name: "김낙수",
-      status: "applied",
+      status: "screencall",
     },
     {
       id: "A002",
@@ -27,7 +27,7 @@
     {
       id: "B002",
       name: "허태환",
-      status: "applied",
+      status: "interview1",
     },
     {
       id: "B003",
@@ -57,6 +57,21 @@
     {
       id: "C004",
       name: "박하영",
+      status: "applied",
+    },
+    {
+      id: "D001",
+      name: "한상철",
+      status: "applied",
+    },
+    {
+      id: "D002",
+      name: "김창수",
+      status: "applied",
+    },
+    {
+      id: "D003",
+      name: "이주영",
       status: "applied",
     },
   ];
